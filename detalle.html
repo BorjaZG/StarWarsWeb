@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Personaje</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./detalle.css">
+    <link rel="stylesheet" href="./loading.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./footer.css">
+</head>
+<body>
+    <header class="no-sticky compact">
+        <a href="index.html" class="back-button">← Volver a la lista</a>
+        <h1 class="titulo-detalle">Detalle del Personaje</h1>
+    </header>
+    <main>
+        <div id="loading" class="loading-container">
+            <div class="spinner"></div>
+            <p class="console-text">Cargando personaje...</p>
+        </div>
+        <div id="character-detail" class="character-card-container"></div>
+    </main>
+    <footer id="main-footer" class="footer hidden">
+        <div class="footer-content">
+            <p>&copy; 2025 Star Wars Fan Page. Todos los derechos reservados.</p>
+            <p>Proyecto educativo realizado por BorjaZG</p>
+            <div class="footer-links">
+                <a href="index.html">Inicio</a>
+                <a href="naves.html">Naves</a>
+                <a href="#">Contacto</a>
+            </div>
+        </div>
+    </footer>
+    <script src="JavaScript/detalle.js"></script>
+    <script src="JavaScript/footer.js"></script>
+</body>
+</html>

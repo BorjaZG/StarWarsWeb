@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Naves de Star Wars</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./header.css" />
+  <link rel="stylesheet" href="./loading.css" />
+  <link rel="stylesheet" href="./footer.css" />
+</head>
+<body>
+  <header>
+    <div class="header-flex">
+      <!-- Logo -->
+      <div class="header-left">
+        <img src="./Imágenes/Star_Wars_Logo.svg" alt="Star Wars Logo" class="logo-starwars" />
+      </div>
+      <!-- Título -->
+      <div class="header-center">
+        <h1 class="titulo-jedi">Naves de Star Wars</h1>
+      </div>
+      <!-- Botón volver -->
+      <div class="header-right">
+        <a href="index.html" class="nav-button">← Volver</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <!-- Loader -->
+      <div id="loading-starships" class="loading-container">
+        <div class="spinner"></div>
+        <p class="console-text">Cargando naves...</p>
+      </div>
+
+      <!-- Contenedor de naves -->
+      <div id="starships-list" class="grid"></div>
+    </section>
+  </main>
+  <footer id="main-footer" class="footer hidden">
+    <div class="footer-content">
+        <p>&copy; 2025 Star Wars Fan Page. Todos los derechos reservados.</p>
+        <p>Proyecto educativo realizado por BorjaZG</p>
+        <div class="footer-links">
+            <a href="index.html">Inicio</a>
+            <a href="naves.html">Naves</a>
+            <a href="#">Contacto</a>
+        </div>
+    </div>
+  </footer>
+  <script src="JavaScript/naves.js"></script>
+  <script src="JavaScript/footer.js"></script>
+</body>
+</html>
