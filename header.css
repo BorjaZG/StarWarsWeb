@@ -154,3 +154,33 @@ header.no-sticky {
   background-color: rgba(0, 0, 0, 0.9);
   padding: 2rem 0 1rem;
 }
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  header, footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  h1, h2, h3 {
+    font-size: 1.2em;
+  }
+
+  nav a {
+    display: block;
+    padding: 10px;
+    font-size: 1em;
+  }
+}

@@ -77,3 +77,48 @@ body {
   transform: scale(1.05);
   opacity: 0.95;
 }
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .container,
+  .content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  header,
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 1.2em;
+  }
+
+  nav a {
+    display: block;
+    padding: 10px;
+    font-size: 1em;
+  }
+}

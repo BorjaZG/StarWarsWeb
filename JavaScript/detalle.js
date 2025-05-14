@@ -1,5 +1,6 @@
 const container = document.getElementById("character-detail");
 const loading = document.getElementById("loading");
+// Obtener el ID del personaje de la URL
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 

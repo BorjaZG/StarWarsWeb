@@ -5,6 +5,7 @@ const loadingText = document.getElementById("loading");
 
 let allCharacters = [];
 
+// Cargar personajes
 async function fetchCharacters() {
   try {
     const res = await fetch(API_URL);
@@ -35,6 +36,7 @@ async function fetchCharacters() {
   }
 }
 
+// Renderizar personajes
 function renderCharacters(list) {
   if (loadingText) loadingText.style.display = "none";
   container.innerHTML = "";
